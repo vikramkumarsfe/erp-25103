@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Layout from './Layout'; // Assuming Layout.jsx is in the same directory
 import { Chart } from 'chart.js';
-import 'chart.js/auto';
 
 import {
   Person as PersonIcon,
@@ -405,3 +404,4 @@ function FacultyAttendance() {
 
 
 export default FacultyAttendance;
+
